@@ -4,16 +4,16 @@ Adds [grunt-spritesmith] task for any M2 theme.
 
 # Usage
 
-Copy `dev/tools/grunt/configs/sprite.js` and `dev/tools/grunt/tasks/sprite.js` to the same directories in your Magento2 installation.
+First you to add new dependency to your `package.json`
 
-Open `Gruntfile.js` in the root directory and find something like:
+```sh
+npm install grunt-spritesmith --save-dev
+```
+
+Than copy `dev/tools/grunt/configs/sprite.js` and `dev/tools/grunt/tasks/sprite.js` to the same directories in your Magento2 installation and open `Gruntfile.js` in the root directory and find something like:
 
 ```javascript
 [
-    taskDir + '/mage-minify',
-    taskDir + '/deploy',
-    taskDir + '/black-list-generator',
-    taskDir + '/clean-black-list',
     taskDir + '/static',
     'time-grunt'
 ].forEach(function (task) {
