@@ -1,10 +1,12 @@
-# Magento2 custom grunt task - grunt-spritesmith
+# Magento2 custom grunt task
 
-This is a composer package which adds [grunt-spritesmith] task for any M2 theme.
+Adds [grunt-spritesmith] task for any M2 theme.
 
 # Usage
 
-Open `Gruntfile.js` in root of your M2 installation and find something like:
+Copy `dev/tools/grunt/configs/sprite.js` and `dev/tools/grunt/tasks/sprite.js` to the same directories in your Magento2 installation.
+
+Open `Gruntfile.js` in the root directory and find something like:
 
 ```javascript
 [
