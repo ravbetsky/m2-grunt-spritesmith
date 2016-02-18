@@ -4,7 +4,6 @@
  */
 module.exports = function (grunt) {
     'use strict';
-
     // Load in `grunt-spritesmith`
     grunt.loadNpmTasks('grunt-spritesmith');
 };
